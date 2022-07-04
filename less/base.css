@@ -1,0 +1,56 @@
+/* 开发的时候写* 上线的时候可以网上找初始化代码吧所有标签拷过来 */
+* {
+  margin: 0px;
+  padding: 0px;
+  /* 在移动端不允许出现横向滚动条的不能让padding或者border撑大盒子 */
+  box-sizing: border-box;
+  /*  清除移动端点击（按住）高亮颜色 */
+  -webkit-tap-highlight-color: transparent;
+  font-size: 14px;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+i,
+em {
+  font-style: normal;
+}
+input {
+  /* 内边框  点击输出框出来的边框*/
+  outline: 0;
+  /* 外边框 */
+  border: 0;
+}
+img {
+  /* 设置图片对齐方式和文字一样解决图片3px的间隙的问题 */
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+/* 公共样式 */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.w50 {
+  width: 50%;
+}
